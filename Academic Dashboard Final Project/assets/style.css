@@ -1,0 +1,192 @@
+/* General app container */
+.app-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Titles */
+.main-title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Rows and Widgets */
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.widget {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Specific elements */
+.widget-title {
+    font-size: 1.1em;
+    margin-top: 10;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.dropdown {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.output-text {
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Filters */
+.filter-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.range-slider {
+    margin-top: 10px;
+}
+
+/* Chart and Table */
+.chart-container {
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #555;
+}
+
+.profile-card {
+    text-align: center;
+    padding: 20px;
+    color: #555;
+}
+
+.error-text {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Status message */
+.status-message, .feedback-message {
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Updating Section */
+.interest-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.interest-table th, .interest-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.interest-table th {
+    text-align: left;
+    background-color: #f4f4f4;
+}
+
+.interest-level-slider {
+    margin-top: 20px;
+    padding: 8px;
+}
+
+.widget-label {
+    margin-bottom: 10px; 
+    margin-top: 10px;    
+    padding-left: 5px;   
+    display: block;       /* Ensures that the label takes up the full width of its parent */
+}
+
+/* General Button Styling */
+.btn {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    padding: 12px 24px; /* Padding inside the button */
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer; /* Change cursor to pointer when hovering */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for background and transform */
+    margin-top: 10px; /* Space from previous elements */
+    margin-right: 10px;
+    width: auto; /* Button width is based on content */
+}
+
+/* Button Hover Effect */
+.btn:hover {
+    background-color: #45a049; /* Darker green when hovered */
+    transform: translateY(-2px); /* Slight raise effect */
+}
+
+/* Button Focus Effect */
+.btn:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 3px rgba(72, 245, 72, 0.5); /* Green shadow when focused */
+}
+
+/* Button Disabled Styling */
+.btn:disabled {
+    background-color: #ddd; /* Gray background for disabled button */
+    color: #aaa; /* Lighter text color */
+    cursor: not-allowed; /* Change cursor to indicate the button is disabled */
+    transform: none; /* Remove hover effect */
+}
+
+/* Specific Button Colors (for differentiation) */
+#add-interest-btn {
+    background-color: #007bff; /* Blue for Add button */
+}
+
+#add-interest-btn:hover {
+    background-color: #0056b3; /* Darker blue for hover */
+}
+
+#update-interest-btn {
+    background-color: #ffc107; /* Yellow for Update button */
+}
+
+#update-interest-btn:hover {
+    background-color: #e0a800; /* Darker yellow for hover */
+}
+
+#remove-interest-btn {
+    background-color: #dc3545; /* Red for Remove button */
+}
+
+#remove-interest-btn:hover {
+    background-color: #c82333; /* Darker red for hover */
+}
+
+#remove-shortlist-btn {
+    background-color: #dc3545; /* Red for Remove button */
+}
+
+#remove-shortlist-btn:hover {
+    background-color: #c82333; /* Darker red for hover */
+}
